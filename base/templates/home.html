@@ -1,1 +1,6 @@
-from home 
+{% extends "base.html" %}
+
+{% block content %}
+home page
+<a href = {% url "base:logout" %}> logout</a>
+{% endblock content %}
